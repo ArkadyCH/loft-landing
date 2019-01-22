@@ -15,7 +15,10 @@ body
     main
         section.section.loft_offer
             .loft_offer__container
-                .loft_offer__title new to the loft?
+                .loft_offer__title
+                    |new to
+                    br.loft_offer__br.loft_offer__br--mobile
+                    |the loft?
                 .loft_offer__limited
                     fieldset.loft_offer__limited_border
                         legend.loft_offer__limited_title Limited Time Offer:*
@@ -25,6 +28,8 @@ body
                 .loft_offer__complimentary
                     .loft_offer__complimentary_plus +
                     .loft_offer__complimentary_title Complimentary Head & Shoulder Massage
+                .loft_offer__section-img.loft_offer__section-img--mobile
+                    img.loft_offer__img(src="./img/loft_offer_img.png")
                 form.loft_offer__form
                     .loft_offer__form_container
                         .loft_offer__form_title claim your treat now
