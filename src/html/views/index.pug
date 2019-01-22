@@ -131,16 +131,19 @@ body
             .section_footer__container
                 .section_footer__social-links-gradient
                     .section_footer__social-links
-                        img.section_footer__social-icon(src="./img/fb.png")
-                        img.section_footer__social-icon(src="./img/inst.png")
+                        .section_footer__claim.section_footer__claim--mobile
+                            a.section_footer__claim_btn(href="#") claim your treat now
+                        .section_footer__social-box
+                            img.section_footer__social-icon(src="./img/fb.png")
+                            img.section_footer__social-icon(src="./img/inst.png")
                         a.section_footer__social-link(href="#")
                             .section_footer__etc @
                             | theloftfifthavenue
-                .section_footer__claim
+                .section_footer__claim.section_footer__claim--pc
                     a.section_footer__claim_btn(href="#") claim your treat now
                 .section_footer__contact
                     .section_footer__contact_title FOR FURTHER INQUIRIES PLEASE CALL
-                    .section_footer__contacat_phone 800 - THE LOFT(843 5638)
+                    .section_footer__contact_phone 800 - THE LOFT(843 5638)
                     .section_footer__contact_container
                         img.section_footer__contact_icon(src="./img/mail.png")
                         .section_footer__contact_email
