@@ -519,6 +519,7 @@ body {
         padding-bottom: 30px;
         padding-top: 5px;
         justify-content: space-between;
+        padding-right: 30px;
       }
     }
     &__items{
@@ -597,7 +598,8 @@ body {
       padding-top: 30px;
     }
     &__social-links-gradient{
-      background: linear-gradient(25deg, #fe934c 0%, #dc2743 25%, #f90f3e 50%, #6e48e7 100%);
+      background: linear-gradient(25deg, #fe934c 0%, #fd1b38 30%, #d30079 70%, #6e48e7 100%);
+      background-size: 140%;
     }
     &__contact_icon{
       padding-bottom: 10px;
