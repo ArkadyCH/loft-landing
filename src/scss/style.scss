@@ -367,6 +367,9 @@ body {
       font-size: 31px;
       font-weight: 900;
     }
+    &__divider{
+      width: 315px;
+    }
   }
   .section-header{
     border-bottom: unset;
@@ -445,8 +448,18 @@ body {
     }
   }
   .loft_phones{
-    &__divider{
-      width: 315px;
+    &__panel{
+      flex-direction: column;
+      width: unset;
+      border: unset;
+      text-align: center;
+    }
+    &__city{
+      font-size: 24px;
+    }
+    &__phone{
+      font-size: 24px;
+      font-weight: bold;
     }
   }
 }
